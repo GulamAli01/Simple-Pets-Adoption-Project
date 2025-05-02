@@ -2,16 +2,6 @@
     padding: 0;
     margin: 0;
 }
-
-h1 {
-    margin-left: 10px;
-}
-
-h2 i a {
-    text-decoration: none;
-    color: #d56f3e;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -22,73 +12,64 @@ nav {
     position: sticky;
     top: 0px;
 }
-
-nav .logo a {
-    position: absolute;
-    color: white;
-    top: 14px;
+.logo img{
+    padding-top: 10px;
+    height: 50px;
+    width: 60px;
+    
+}
+.logo {
+    display: flex;
+    align-items: center;
 }
 
-nav ul {
+.nav ul {
     list-style: none;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
-    /* justify-content: ; */
-}
-
-nav ul li {
-    display: flex;
-    align-items: center;
     cursor: pointer;
 }
+nav ul li span {
+    color: #fff;
+}
 
-li img {
+h1 {
+    text-shadow: 2px 4px 8px #403E3E;
+}
+#sp {
+    color: #d56f3e;
+}
+
+ul li img {
     height: 20px;
-    /* width: 40px; */
     padding-bottom: 20px;
 }
 
 .card {
-    width: 200px;
-    /* border: 2px solid black; */
-    /* border-radius: 25px; */
-    height: 308px;
+    width: 180px;
+    border: 0px solid black; 
+    border-radius: 5px;
+    height: 275px;
     padding: 10px;
     margin: 50px;
     box-shadow: 1px 1px 10px 1px #403E3E;
-    margin-top: 50px;
     cursor: pointer;
 }
+.card p {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.card h3 {
+    font-family: sans-serif;
+}
 
-img {
+.card img {
     height: 200px;
     width: 100%;
-    /* border-radius: 25px; */
-    padding: 0px;
-    margin: 0;
+    border-radius: 5px;
 }
 
-h2 {
-    color: #fff;
-}
-
-li span {
-    color: #fff;
-    padding-bottom: 20px;
-
-}
-
-i {
-    color: #fff;
-    font-size: 20px;
-    padding-bottom: 20px;
-    padding-left: 5px;
-}
-
-#sp {
-    color: #d56f3e;
-}
 
 h4 {
     color: #3c787e;
@@ -112,7 +93,4 @@ h4 {
     transform: scale(1.1);
 }
 
-h1 {
-    text-shadow: 2px 4px 8px #403E3E;
-    margin-top: 10px;
-}
+
